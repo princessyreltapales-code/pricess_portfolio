@@ -6,7 +6,7 @@
 * Activities
 * Contact
 # Live Site
-My Portfolio:https://princessyreltapales-code.github.io/
+My Portfolio:https://princessyreltapales-code.github.io/pricess_portfolio/
 # Technology Used
 * GitHub
 * Visual Studio Code
