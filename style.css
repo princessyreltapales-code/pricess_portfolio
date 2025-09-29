@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff1e6; 
+  color: #333; 
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  gap: 30px;
+  min-height: 400px; 
+  color: #000; 
+}
+
+#profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(255, 184, 130, 0.5); 
+  transition: transform 0.3s ease;
+}
+
+#profile:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #ffb3a1; 
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 4px solid #ff8c64; 
+  border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  border-radius: 30px;
+  background: #ff8c64; /* Deep peach */
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #ffcc99; /* Lighter peach */
+}
+
+.section {
+  display: none;
+  padding: 60px 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  margin: 50px 0;
+  box-shadow: 0 6px 20px rgba(255, 184, 130, 0.4);
+}
+
+.section.active {
+  display: block; 
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #000; 
+  font-weight: 600;
+}
+
+.activity-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.activity-card {
+  flex: 1 1 45%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(255, 105, 97, 0.3); 
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  background-color: #fff1e6; 
+  color: #000;
+}
+
+.activity-card:hover {
+  transform: scale(1.05);
+}
+
+.activity-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #000; 
+}
+
+#contact a {
+  color: #166999; 
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #ffb3a1; 
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  border-top: 4px solid #ff8c64; 
+  font-size: 1.1rem;
+  border-radius: 20px 20px 0 0;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 184, 130, 0.6); 
+}
+
+.modal-content {
+  margin: 5% auto;
+  display: block;
+  max-width: 75%;
+  border-radius: 15px;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #ff8c64;
+}
