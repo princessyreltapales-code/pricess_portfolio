@@ -1,5 +1,5 @@
 # About Me
-* I'm a BSIT (Bachelor of Science in Information Technology) student with a strong interest in exploring the world of technology and continuous learning. I enjoy discovering new skills and applying them both in school and in my hobbies. Outside academics, I like creating digital art, playing online games, and being active in volleyball. I value friendship, creativity, and growth in everything I do.
+*Hi I'm Syrel Tapales BSIT (Bachelor of Science in Information Technology) student with a strong interest in exploring the world of technology and continuous learning.  playing online games and Badminton. I value friendship, creativity, and growth in everything I do
 # Portfolio Section
 * Home
 * About Me
